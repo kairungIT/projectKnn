@@ -76,7 +76,7 @@ if st.button("ทำนายผล"):
    st.write(Knn_model.predict(x_input))
    out=Knn_model.predict(x_input)
 
-   if out[0]=="2":
+   if out[0]==2:
  #     st.image("./pic/iris1.jpg")
       st.header("ไม่เป็นมะเร็ง")
    else:
